@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+
+    <title></title>
+    <script>
+//        var worldCup1=["pool-A" , "pool-B"];
+//        worldCup1[0]=["aus","new","sri","sct","ban","afg","eng"];
+//        worldCup1[1]=["pak","ind","rsa","ire","uae","win","zim"];
+//
+//        var pak=worldCup1[1][0];
+//        var ind=worldCup1[1][1];
+        var worldCup={
+            teams:[
+                {
+                    name:"pakistan",
+                    totalMatches:2,
+                    totalLost:2,
+                    totalWon:0,
+                    players:[
+                        {
+                            name:"shahid afridi",
+                            speciality:"allrounder",
+                            strikeRate: 173,
+                            best:124
+                        },
+                        {
+                            name:"ahmed shahzad",
+                            speciality:"batsman",
+                            strikeRate: 83,
+                            best:105
+                        },
+                        {
+                            name:"saeed ajmal",
+                            speciality:"bowler",
+                            strikeRate: 43,
+                            best:8
+                        }
+                            ]},
+                {
+                    name:"india",
+                    totalMatches:2,
+                    totalLost:0,
+                    totalWon:2,
+                    players:[
+                        {
+                            name:"virat kohli",
+                            speciality:"batsman",
+                            strikeRate:134,
+                            best:180
+                        },
+                        {
+                            name:"dhoni",
+                            speciality: "wicketkeeper",
+                            strikeRate:140,
+                            best:140
+                        },
+                        {
+                            name:"ashvin",
+                            speciality:"bowler",
+                            strikeRate:45,
+                            best:20
+                        }
+                    ]
+            }]
+        }
+            document.write(worldCup.teams[0].name)
+    </script>
+
+</head>
+<body>
+
+
+</body>
+</html>
